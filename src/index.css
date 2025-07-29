@@ -1,0 +1,30 @@
+@import url(https://db.onlinewebfonts.com/c/cfdf18a10f253f0aa9db6db978d328c0?family=SignPainter+HouseScript);
+@import url(https://db.onlinewebfonts.com/c/90b5969d566126e65d4c891c3f32c7cd?family=Digestive+zero);
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.digestive {
+  font-family: "Digestive zero", sans-serif;
+}
+
+.signpainter {
+  font-family: "SignPainter HouseScript", sans-serif;
+}
+
+@font-face {
+  font-family: "Adca Regular";
+  src: url("/assets/fonts/adca.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.adcaRegular {
+  font-family: "Adca Regular", sans-serif;
+}
