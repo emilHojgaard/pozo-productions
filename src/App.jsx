@@ -8,8 +8,11 @@ import WorkDetails from "./pages/detailsPage";
 import NavbarSmall from "./components/NavbarSmall";
 
 export default function App() {
+  const basename =
+    process.env.NODE_ENV === "production" ? "/pozo-productions" : "/";
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <div className=" ">
         <div className="block lg:hidden">
           <NavbarSmall />
