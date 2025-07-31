@@ -61,7 +61,6 @@ export default function WorkDetail() {
             )}
           </figure>
 
-          {console.log(work.videoAlbum)}
           {work.videoAlbum.map((videoUrl, index) => (
             <div className="w-full md:w-2/3 aspect-video mt-4" key={index}>
               <iframe
